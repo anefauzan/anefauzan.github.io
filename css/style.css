@@ -1,0 +1,35 @@
+body	{
+	margin: 0;
+  	padding-left: 300px;
+}
+@media only screen and (max-width : 992px) {
+	body {
+		padding-left: 0;
+	}
+}
+@media only screen and (max-width : 992px) {
+header, main, footer {
+	padding-left: 0;
+}
+}
+.nav-extended { display: none;}
+
+@media only screen and (max-device-width : 992px) { 
+	.nav-extended { 
+		display: inline;
+	}
+}
+@media only screen and (max-device-width : 992px) {
+	.slider {
+		margin-left: 0;
+	}
+}
+.slider h3, h5 {
+	padding-left: 100px;
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+@media only screen and (max-device-width : 992px) {
+	.slider h3, h5 {
+	padding-left: 0;
+}
+}
