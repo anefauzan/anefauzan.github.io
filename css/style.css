@@ -55,6 +55,7 @@ padding: 5px;
 @media only screen and (max-width : 992px) {
 body {
 padding-left: 0;
+font-size: 15px;
 }
 
 
