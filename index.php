@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>aneFauzan Website</title>
+      <!--Import Google Icon Font-->
+      <link href="fonts.css" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" href="fonts/style.css">
+    </head>
+
+    <body>
+      <header>
+          <div class="navbar-fixed">
+    <nav class="indigo">
+    <div class="container">
+      <div class="nav-wrapper">
+          <a href="#!" class="brand-logo logo1">aneFauzan</a>
+    <ul id="slide-out" class="sidenav sidenav-fixed">
+        <li><a href="index.php">Beranda</a></li>
+        <li><a href="biografi.php">Biografi</a></li>
+        <li><a href="biodata.php">Biodata</a></li>
+        <li><a href="fotopribadi.php">Foto Pribadi</a></li>
+        <li><a href="fotobareng.php">Foto Bersama</a></li>
+    </ul>
+      </div>
+      </div>
+    </nav>
+    <!-- mobile navbar -->
+  <nav class="nav-extended indigo">
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">aneFauzan</a>
+    </div>
+    <div class="nav-content">
+      <ul class="tabs tabs-transparent">
+        <li class="tab"><a href="index.php">Beranda</a></li>
+        <li class="tab"><a href="biografi.php">Biografi</a></li>
+        <li class="tab"><a href="biodata.php">Biodata</a></li>
+        <li class="tab"><a href="fotopribadi.php">Foto Pribadi</a></li>
+        <li class="tab"><a href="fotobareng.php">Foto Bersama</a></li>
+      </ul>
+    </div>
+  </nav>
+      </header>
+  <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="img/1.png">
+        <div class="caption center-align">
+          <h3 class="slidetext">Selamat Datang di aneFauzan</h3>
+          <h5 class="light grey-text text-lighten-3 slidetext">yang punya website ganteng</h5>
+        </div></li>
+      <li>
+        <img src="img/2.jpg">
+        <div class="caption center-align">
+          <h3 class="slidetext">Berisi Biodata, Biografi, dan Foto-foto</h3>
+          <h5 class="light grey-text text-lighten-3 slidetext">yang punya website pokoknya ganteng</h5>
+        </div></li>
+      </ul>
+  </div>
+  
+  <!-- about -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="row">
+          <div class="col m12">
+            <h5>About Us!</h5>
+            <p>Hai... ini adalah website pribadi milik saya, Ahmad Fauzan. Website ini berisi tentang apa saja mengenai saya. Dimulai dari Biografi, Biodata, dan Foto-foto. </p>
+            <p>Website ini dibuat pada 10 September 2019 dengan tujuan agar saya bisa memperkenalkan diri saya ke semua orang. Selain itu, website ini juga dibuat karena satu hal lagi, yaitu tugas Multimedia. Yap tentunya dibuat dengan harapan agar mendapat nilai yang bagus ehehe :)</p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+    <!-- follow us -->
+    <div class="container">
+      <div class="row">
+        <div class="col m4 s12">
+          <div class="card-panel center indigo white-text">
+            <img src="img/fb.png" width='64px' alt="">
+            <h5>Facebook</h5>
+            <p><a href="https://www.facebook.com/afauzannn">@afauzannn</a></p>
+          </div>
+        </div>
+        <div class="col m4 s12">
+          <div class="card-panel center indigo white-text">
+            <img src="img/ig.png" width='64px'  alt="">
+            <h5>Instagram</h5>
+            <p><a href="https://www.instagram.com/anefauzan">@anefauzan</a></p>
+          </div>
+        </div>
+        <div class="col m4 s12">
+          <div class="card-panel center indigo white-text">
+            <img src="img/tw.png" width='64px' alt="">
+            <h5>Twitter</h5>
+            <p><a href="https://www.twitter.com/neoxyreii">@neoxyreii</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  <!-- footer -->
+          <footer class="page-footer indigo">
+          <div class="container">
+<!-- conten footer -->
+          </div>
+          <div class="footer-copyright blue-grey darken-4 center">
+            <div class="container">
+            Copyright © 2019 · <a href="#">aneFauzan Website<br></a>Made with Love by Neoxy Reii
+            </div>
+          </div>
+        </footer>
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript">
+        const slider = document.querySelectorAll ('.slider');
+        M.Slider.init(slider, {
+        indicators: false  ,
+        height: 300,
+        interval: 4000
+        });
+        const paralLax = document.querySelectorAll ('.parallax');
+        M.Parallax.init(paralLax)
+
+        const materialBox = document.querySelectorAll ('.materialboxed');
+        M.Materialbox.init(materialBox)
+      </script>
+    </body>
+  </html>
